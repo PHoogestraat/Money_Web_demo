@@ -2,17 +2,17 @@
 console.log("Annual Cost/Win");
 
 // ECMAScript Internationalization API uses to convert integer to dollar format - no cents
-const formatter = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD',
-  minimumFractionDigits:2
-});
+//const formatter = new Intl.NumberFormat('en-US', {
+//  style: 'currency',
+//  currency: 'USD',
+//  minimumFractionDigits:2
+//});
 
-const formatterTWO = new Intl.NumberFormat('en-US', {
-  style: 'currency',
-  currency: 'USD',
-  minimumFractionDigits:2
-});
+//const formatterTWO = new Intl.NumberFormat('en-US', {
+//  style: 'currency',
+//  currency: 'USD',
+//  minimumFractionDigits:2
+//});
 
 
 //BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
