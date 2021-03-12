@@ -242,7 +242,7 @@ function crossHairDataPrep(selectedTeam){
     console.log(`Min of  costperwin : ${cost_perMinY}`)
 
     //gridPlotX(winsAveX, cost_perMaxY, cost_perMinY)
-    //gridPlotY(winsMaxX, winsMinX, cost_perAveY,cost_perMaxY,cost_perMaxY);
+    //gridPlotY(cost_perAveY, winsMaxX, winsMinX);
 
 };
 
@@ -284,11 +284,11 @@ function gridPlotX(xAve, xMax, xMin, yAve, yMax, yMin){
 
 // plot lline function
 
-function gridPlotY(xMax, xMin, yAve, yMax, yMin){
+function gridPlotY(yAve, xMax, xMin ){
   var dataArray = [
         // { x: xAve, y: yMax },
         // { x: xAve, y: yMin },
-        { x: xMax, y: (yAve) },
+        { x: xMax, y: yAve },
         { x: xMin, y: yAve },
 
   ];
