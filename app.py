@@ -36,7 +36,7 @@ def viz1():
 
 @app.route('/year')
 def viz2():
-    return render_template('Yearapp.html')
+    return render_template('YearApp.html')
 
 @app.route('/mlb')
 def viz3():
