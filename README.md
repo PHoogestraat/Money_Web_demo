@@ -89,7 +89,7 @@ The Athletics’ cost per win (total team salary expenditures/team wins) came ou
 When considering the disadvantages the Athletics franchise faces, objectively, it’s not unreasonable to conclude that the Moneyball approach has been a success over its two decades of implementation.
 
 									
-[Sample Web](https://money-ball-demo-web.herokuapp.com/year)
+[Sample Web](https://money-ball-demo-web.herokuapp.com/)
 
 
 
